@@ -4,8 +4,8 @@ import time
 from machine import Pin, I2C
 
 # --- WiFi credentials ---
-SSID = "your-wifi-name"
-PASSWORD = "your-wifi-password"
+SSID = "Millie5 2.4"
+PASSWORD = "BAM$alcetti.1981"
 
 # --- I2C setup for BH1750 light sensor ---
 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)
